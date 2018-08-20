@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MascaraMoedaEntryXamarinForms"
+             x:Class="MascaraMoedaEntryXamarinForms.MainPage">
+
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="StartAndExpand">
+            <Label Text="Valor" />
+            <Entry x:Name="EntryMoeda" Placeholder="R$ 0.000,00" Keyboard="Numeric" >
+                <Entry.Behaviors>
+                    <local:MascaraMoeda />
+                </Entry.Behaviors>
+            </Entry>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
