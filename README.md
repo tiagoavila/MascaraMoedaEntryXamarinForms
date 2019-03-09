@@ -4,7 +4,7 @@ Exemplo de aplicativo feito em Xamarin Forms aplicando máscara de moeda brasile
 
 ## Como utilizar
 
-Adicone a classe MascaraMoeda no projeto compartilhado do seu aplicativo.
+Adicione a classe MascaraMoeda no projeto compartilhado do seu aplicativo.
 
 Na sua página xaml primeiro adicione o namespace da classe MascaraMoeda na tag ContentPage.
 ```
