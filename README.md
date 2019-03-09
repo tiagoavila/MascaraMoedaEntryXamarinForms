@@ -1,4 +1,4 @@
-# Mascara Moeda Entry XamarinForms
+# Máscara Moeda Entry XamarinForms
 
 Exemplo de aplicativo feito em Xamarin Forms aplicando máscara de moeda brasileira (R$) no Entry.
 
